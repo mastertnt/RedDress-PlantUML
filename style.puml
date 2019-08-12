@@ -115,9 +115,9 @@ skinparam circledCharacter {
 }
 
 skinparam class {
-  BASICSTYLE
-  FONTSTYLE
-  ARROWSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
+  ARROWSTYLE()
 
   attributeFontColor SECONDARY
   attributeFontSize FONTSIZE
@@ -127,85 +127,85 @@ skinparam class {
 ' Sequence diagrams
 
 skinparam actor {
-  ACCENTSTYLE
-  FONTSTYLE
+  ACCENTSTYLE()
+  FONTSTYLE()
 }
 
 skinparam participant {
-  BASICSTYLE
-  FONTSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
 }
 
 ' Component diagrams
 
 skinparam interface {
-  ACCENTSTYLE
-  FONTSTYLE
+  ACCENTSTYLE()
+  FONTSTYLE()
 }
 
 skinparam component {
-  BASICSTYLE
-  FONTSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
 }
 
 skinparam node {
-  BASICSTYLE
-  FONTSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
 }
 
 skinparam database {
-  BASICSTYLE
-  FONTSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
 }
 
 skinparam queue {
-  BASICSTYLE
-  FONTSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
 }
 
 ' Use Case diagrams
 
 skinparam usecase {
-  BASICSTYLE
-  FONTSTYLE
-  ARROWSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
+  ARROWSTYLE()
 }
 
 skinparam activity {
-  BASICSTYLE
-  FONTSTYLE
-  ARROWSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
+  ARROWSTYLE()
 }
 
 skinparam sequence {
-  FONTSTYLE
-  ARROWSTYLE
+  FONTSTYLE()
+  ARROWSTYLE()
 
   lifeLineBorderColor ARROWCOLOR
   lifeLineBackgroundColor ARROWFONTCOLOR
 }
 
 skinparam boundary {
-  ACCENTSTYLE
-  FONTSTYLE
+  ACCENTSTYLE()
+  FONTSTYLE()
 }
 
 skinparam control {
-  ACCENTSTYLE
-  FONTSTYLE
+  ACCENTSTYLE()
+  FONTSTYLE()
 }
 
 skinparam entity {
-  ACCENTSTYLE
-  FONTSTYLE
+  ACCENTSTYLE()
+  FONTSTYLE()
 }
 
 ' State diagrams
 
 skinparam state {
-  BASICSTYLE
-  FONTSTYLE
-  ARROWSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
+  ARROWSTYLE()
   startColor ACCENT
   endColor ACCENTDARK
 }
@@ -213,32 +213,32 @@ skinparam state {
 ' Object diagrams
 
 skinparam object {
-  BASICSTYLE
-  FONTSTYLE
-  ARROWSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
+  ARROWSTYLE()
 }
 
 ' Common
 
 skinparam note {
-  ACCENTSTYLE
-  FONTSTYLE
+  ACCENTSTYLE()
+  FONTSTYLE()
 }
 
 skinparam cloud {
-  BASICSTYLE
-  FONTSTYLE
-  ARROWSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
+  ARROWSTYLE()
 }
 
 skinparam rectangle {
-  BASICSTYLE
-  FONTSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
 }
 
 skinparam storage {
-  BASICSTYLE
-  FONTSTYLE
+  BASICSTYLE()
+  FONTSTYLE()
 }
 
 @enduml
